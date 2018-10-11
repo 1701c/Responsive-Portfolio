@@ -1,4 +1,4 @@
-body{
+body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   margin: 0px;
   background-color: #dddddd;
@@ -6,39 +6,37 @@ body{
   background-image: url(../../assets/images/gravel.png);
 }
 
-h1{
+h1 {
   font-family: 'Georgia', Times, "Times New Roman", serif;
   font-size: 28px;
   font-weight: bold;
 }
 
-h2{
+h2 {
   font-family: 'Georgia', Times, "Times New Roman", serif;
   font-size: 20px;
   font-weight: bold;
 }
 
-h5{
+h5 {
   font-family: 'Georgia', Times, "Times New Roman", serif;
   font-size: 28px;
   font-weight: bold;
 }
 
-p{
+p {
   color: #777777;
   font-size: 18px;
   line-height: 150%;
   margin-bottom: 20px;
 }
 
-.p2{
+.p2 {
   color: #777777;
-  font-size: 20pt;
-  /* line-height: 100%; */
-  /* margin-bottom: 16px; */
+  font-size: 16pt;
 }
 
-hr{
+hr {
   color: #cccccc;
   background-color: #cccccc;
   height: 3px;
@@ -46,45 +44,44 @@ hr{
   margin: 5px 0px 25px;
 }
 
-header{
+header {
   background-color: #ffffff;
   border-style: solid;
   border-width: 0px 0px 2px 0px;
   border-color: #cccccc;
-
 }
 
-#headerBox{
+#headerBox {
   width: 960px;
   margin: 0 auto;
 }
 
-#name{
+#name {
   background-color: #4aaaa5;
   float: left;
   color: white;
   padding: 30px;
 }
 
-.menuButtons{
+.menuButtons {
   color: #777777;
   text-decoration: none;
 }
 
-.offWhite{
+.offWhite {
   color: #dddddd;
 }
 
-#menuBar{
+#menuBar {
   float: right;
   padding: 30px 0px 0px;
 }
 
-#menuBar a:hover{
+#menuBar a:hover {
   color: black;
 }
 
-footer{
+footer {
   width: 100%;
   text-align: center;
   position: fixed;
@@ -96,7 +93,7 @@ footer{
   font-size: 14px;
 }
 
-#contentBox{
+#contentBox {
   width: 900px;
   margin: 35px auto;
   padding: 35px 30px 20px;
@@ -106,18 +103,18 @@ footer{
   border-color: #cccccc;
 }
 
-#sectionTitle{
+#sectionTitle {
   color: #4aaaa5;
   border-style: solid;
   float: left;
   margin: 0px 0px 22px;
 }
 
-#iconBlock{
+#iconBlock {
   float: right;
 }
 
-.socialIcon{
+.socialIcon {
   width: 47px;
   margin: 0px 6px;
   top: -13px;
@@ -132,8 +129,7 @@ footer{
 }
 
 /* about page */
-
-.photoWithCitation{
+.photoWithCitation {
   color: black;
   margin: 0px 25px 15px 0px;
   text-align: right;
@@ -141,25 +137,20 @@ footer{
   font-size: 12px;
 }
 
-.photoCitation{
+.photoCitation {
   color: black;
 }
 
 /* portfolio page */
-
-.portfolioBox{
+.portfolioBox {
   width: 280px;
   height: 200px;
   float: left;
-
   margin: 0px 40px 50px 0px;
-  position: relative;
-  /* align: center; */
-  /* text-align: center; */
-  
+  position: relative;  
 }
 
-.portfolioTitle{
+.portfolioTitle {
   width: 280px;
   height: 60px;
   position: absolute;
@@ -169,11 +160,11 @@ footer{
   text-align: center;
 }
 
-.portfolioTitle a:hover{
+.portfolioTitle a:hover {
   color: black;
 }
 
-.portfolioLink{
+.portfolioLink {
   text-decoration: none;
   color: #ffffff;
   position: relative;
@@ -181,8 +172,7 @@ footer{
 }
 
 /* contact page */
-
-.contactForm{
+.contactForm {
   width: 878px;
   font-size: 14px;
   padding: 10px;
@@ -190,13 +180,13 @@ footer{
   margin-bottom: 10px;
 }
 
-.tallContactForm{
+.tallContactForm {
   height: 300px;
   width: 880px;
   border-color:#cccccc;
 }
 
-.button{
+.button {
   background-color: #4aaaa5;
   border: none;
   color: #ffffff;
@@ -207,12 +197,7 @@ footer{
   cursor: pointer;
 }
 
-.portfolios {
-/* text-align: center; */
-/* padding-left: 150px; */
-}
-
-.button:hover{
+.button:hover {
   color: black;
 }
 
@@ -224,36 +209,27 @@ footer{
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .p2{
-    /* line-height: 100%; */
-    font-size: 16pt;
-    /* margin-bottom: 0px; */
+    font-size: 14pt;
   }
 }
 
 @media (max-width: 767.98px) {
   h1{
-    /* font-family: 'Georgia', Times, "Times New Roman", serif; */
     font-size: 20px;
-    /* font-weight: bold; */
   }
 
   #name{
-    /* background-color: #4aaaa5;
-    float: left;
-    color: white; */
     padding: 15px;
   }
 
-  #menuBar{
-    /* float: right; */
+  #menuBar {
     padding: 17px 0px 0px;
   }
-
 }
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
   .p2 {
-    font-size: 18pt;
+    font-size: 15pt;
   }
 }
 
@@ -261,14 +237,10 @@ footer{
   #contentBox {
     width: auto;
     max-width: none;
-   
-    /* padding-left: 20px; */
   }
 
   #contentWrapper {
     width: 100%;
-    
-    max-width: none;
   }
 
   #headerBox {
@@ -276,16 +248,14 @@ footer{
     margin-left: auto;
     margin-right: 10px;
     max-width: none;
-    /* margin-right: 3px; */
   }
 
   .formBox {
     padding-right: 22px;
   }
 
-  .contactForm{
+  .contactForm {
     width: 100%;
-    
     font-size: 14px;
     padding: 10px;
     color: #777777;
@@ -294,7 +264,6 @@ footer{
   
   .tallContactForm{
     height: 300px;
-    /* width: 96%; */
     border-color:#cccccc;
   }
 }
