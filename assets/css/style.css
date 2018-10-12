@@ -142,17 +142,25 @@ footer {
 }
 
 /* portfolio page */
+.portfolioImage {
+  width: 400px;
+}
+
+.portfolios {
+  width: 100%;
+  text-align: center;
+}
+
 .portfolioBox {
-  width: 280px;
-  height: 200px;
-  float: left;
-  margin: 0px 40px 50px 0px;
+  width: 400px;
+  display: inline-block;
+  margin: 0px 20px 50px 20px;
   position: relative;  
 }
 
 .portfolioTitle {
-  width: 280px;
-  height: 60px;
+  width: 400px;
+  height: 80px;
   position: absolute;
   bottom: 10px;
   background-color: #4aaaa5;
@@ -168,7 +176,7 @@ footer {
   text-decoration: none;
   color: #ffffff;
   position: relative;
-  top: 20px;
+  top: 30px;
 }
 
 /* contact page */
@@ -205,11 +213,49 @@ footer {
   .p2 {
     font-size: 11pt;
   }
+
+  .portfolioImage {
+    width: 300px;
+  }
+
+  .portfolioBox {
+    width: 300px;
+    margin: 10px 0px 20px;
+  }
+
+  .portfolioTitle {
+    width: 300px;
+    height: 60px;
+    bottom: 8px;
+  }
+
+  .portfolioLink {
+    top: 20px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .p2{
     font-size: 14pt;
+  }
+
+  .portfolioImage {
+    width: 220px;
+  }
+
+  .portfolioBox {
+    width: 220px;
+    margin: 0px 35px 20px 0px;
+  }
+
+  .portfolioTitle {
+    width: 220px;
+    height: 50px;
+    bottom: 8px;
+  }
+
+  .portfolioLink {
+    top: 15px;
   }
 }
 
@@ -230,6 +276,24 @@ footer {
 @media (min-width: 767.98px) and (max-width: 991.98px) {
   .p2 {
     font-size: 15pt;
+  }
+
+  .portfolioImage {
+    width: 300px;
+  }
+
+  .portfolioBox {
+    width: 300px;
+  }
+
+  .portfolioTitle {
+    width: 300px;
+    height: 60px;
+    bottom: 8px;
+  }
+
+  .portfolioLink {
+    top: 20px;
   }
 }
 
