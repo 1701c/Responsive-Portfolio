@@ -14,7 +14,7 @@ h1 {
 
 h2 {
   font-family: 'Georgia', Times, "Times New Roman", serif;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: bold;
 }
 
@@ -68,13 +68,18 @@ header {
   text-decoration: none;
 }
 
+#menuButtonActive {
+  color:black;
+  text-decoration: none;
+}
+
 .offWhite {
   color: #dddddd;
 }
 
 #menuBar {
   float: right;
-  padding: 30px 0px 0px;
+  padding: 37px 0px 0px;
 }
 
 #menuBar a:hover {
@@ -176,7 +181,14 @@ footer {
   text-decoration: none;
   color: #ffffff;
   position: relative;
-  top: 30px;
+  top: 25px;
+}
+
+.placeholderPadding {
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
 }
 
 /* contact page */
@@ -209,11 +221,27 @@ footer {
   color: black;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 479.98px) {
   .p2 {
-    font-size: 11pt;
+    font-size: 10pt;
   }
 
+  #menuBar {
+    padding: 21px 0px 0px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 575.98px) {
+  .p2 {
+    font-size: 14pt;
+  }
+
+  #menuBar {
+    padding: 17px 0px 0px;
+  }
+}
+
+@media (max-width: 575.98px) {
   .portfolioImage {
     width: 300px;
   }
@@ -230,12 +258,16 @@ footer {
   }
 
   .portfolioLink {
-    top: 20px;
+    top: 16px;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
   .p2{
+    font-size: 15pt;
+  }
+
+  h2 {
     font-size: 14pt;
   }
 
@@ -257,6 +289,10 @@ footer {
   .portfolioLink {
     top: 15px;
   }
+
+  #menuBar {
+    padding: 15px 0px 0px;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -266,10 +302,6 @@ footer {
 
   #name{
     padding: 15px;
-  }
-
-  #menuBar {
-    padding: 17px 0px 0px;
   }
 }
 
@@ -293,7 +325,7 @@ footer {
   }
 
   .portfolioLink {
-    top: 20px;
+    top: 16px;
   }
 }
 
